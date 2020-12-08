@@ -4,7 +4,6 @@ This is the XTS Python API Client library , which has both Marketdata and Intera
 API Documentation for XTS-MarketData API and XTS-Trading API can be found in the below link.
 
 https://symphonyfintech.com/xts-market-data-front-end-api/
-
 https://symphonyfintech.com/xts-trading-front-end-api-v2/
 
 ## Installation
@@ -182,8 +181,13 @@ To Cancel an order you need to user Interactive api and In response you will get
 
 ### Examples
 Example code demonstrating how to use XTS Api can be found in xts-python-api-sdk
-```js
-Example.py : Examples of all the API calls for Interactive as well as Marketdata APIs
-InteractiveSocketExample.py : Interactive Socket Streaming Example
-MarketdataSocketExample.py : Marketdata Socket Streaming Example
-```
+
+#####Example.py 
+Examples of all the API calls for Interactive as well as Marketdata APIs
+
+#####InteractiveSocketExample.py
+Interactive Socket Streaming Example
+
+#####MarketdataSocketExample.py
+Marketdata Socket Streaming Example
+
