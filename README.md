@@ -182,12 +182,9 @@ To Cancel an order you need to user Interactive api and In response you will get
 ### Examples
 Example code demonstrating how to use XTS Api can be found in xts-python-api-sdk
 
-#####Example.py 
-Examples of all the API calls for Interactive as well as Marketdata APIs
+Example.py : Examples of all the API calls for Interactive as well as Marketdata APIs
 
-#####InteractiveSocketExample.py
-Interactive Socket Streaming Example
+InteractiveSocketExample.py : Interactive Socket Streaming Example
 
-#####MarketdataSocketExample.py
-Marketdata Socket Streaming Example
+MarketdataSocketExample.py : Marketdata Socket Streaming Example
 
