@@ -54,8 +54,7 @@ class MDSocket_io(socketio.Client):
         self.sid.on('1502-json-full', self.on_message1502_json_full)
         self.sid.on('1502-json-partial', self.on_message1502_json_partial)
 
-        self.sid.on('1504-json-full', self.on_message1504_json_full)
-        self.sid.on('1504-json-partial', self.on_message1504_json_partial)
+       
 
         self.sid.on('1505-json-full', self.on_message1505_json_full)
         self.sid.on('1505-json-partial', self.on_message1505_json_partial)
