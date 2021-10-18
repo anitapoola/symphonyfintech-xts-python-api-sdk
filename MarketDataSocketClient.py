@@ -134,9 +134,6 @@ class MDSocket_io(socketio.Client):
         message = "1502 >> #{id} >> {data}".format(id=2885, data=data)
         sock.send(message)
 
-    def on_message1504_json_full(self, data):
-        """On receiving message code 1504 full"""
-        print('I received a 1504 Index data message!' + data)
 
     def on_message1505_json_full(self, data):
         """On receiving message code 1505 full"""
@@ -156,10 +153,6 @@ class MDSocket_io(socketio.Client):
         """On receiving message code 1502 partial"""
         print('I received a 1502 partial message!' + data)
 
-    def on_message1504_json_partial(self, data):
-        """On receiving message code 1504 partial"""
-        print('I received a 1504 Index data message!' + data)
-
     def on_message1505_json_partial(self, data):
         """On receiving message code 1505 partial"""
         print('I received a 1505 Candle data message!' + data)
@@ -167,6 +160,22 @@ class MDSocket_io(socketio.Client):
     def on_message1510_json_partial(self, data):
         """On receiving message code 1510 partial"""
         print('I received a 1510 Open interest message!' + data)
+        
+    def on_message1507_json_partial(self, data):
+        """On receiving message code 1507 partial"""
+        print('I received a 1507 MarketStatus message!' + data)
+        
+    def on_message1507_json_full(self, data):
+        """On receiving message code 1507 full"""
+        print('I received a 1507 MarketStatus message!' + data)    
+        
+    def on_message1512_json_full(self, data):
+        """On receiving message code 1512 full"""
+        print('I received a 1512 LTP message!' + data)
+        
+    def on_message1512_json_partial(self, data):
+        """On receiving message code 1512 partial"""
+        print('I received a 1512 LTP message!' + data)   
 
     def on_message1501_json_partial(self, data):
         """On receiving message code 1501 partial"""
