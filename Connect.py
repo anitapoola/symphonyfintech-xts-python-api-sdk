@@ -97,6 +97,7 @@ class XTSConnect(XTSCommon):
         "order.exit.cover": "/interactive/orders/cover",
         "order.modify": "/interactive/orders",
         "order.cancel": "/interactive/orders",
+        "order.cancelall": "/interactive/orders/cancelall",
         "order.history": "/interactive/orders",
 
         "portfolio.positions": "/interactive/portfolio/positions",
