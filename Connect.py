@@ -55,6 +55,8 @@ class XTSConnect(XTSCommon):
     # Order types
     ORDER_TYPE_MARKET = "MARKET"
     ORDER_TYPE_LIMIT = "LIMIT"
+    ORDER_TYPE_STOPMARKET = "STOPMARKET"
+    ORDER_TYPE_STOPLIMIT = "STOPLIMIT"
 
     # Transaction type
     TRANSACTION_TYPE_BUY = "BUY"
